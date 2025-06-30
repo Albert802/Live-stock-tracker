@@ -55,7 +55,7 @@ python manage.py runserver
 (Coming soon if you deploy to PythonAnywhere, Heroku, or Render)
 
 🖼️ Screenshots
-(Include screenshots of your UI and chart output here)
+[![Watch the video](https://img.youtube.com/vi/VfKLm2S73ig_ID/0.jpg)](https://www.youtube.com/watch?v=VfKLm2S73ig)
 
 🔁 API Endpoints
 /api/price-history/<symbol>/ – Returns price + timestamp history for Chart.js
