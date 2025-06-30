@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Live Stock Dashboard</h1>
+
+<p>Total stocks: {{ stocks|length }}</p>
+
+<table border="1">
+    <tr>
+        <th>Symbol</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Last Updated</th>
+    </tr>
+    {% for stock in stocks %}
+    <tr>
+        <td>{{ stock.symbol }}</td>
+        <td>{{ stock.name }}</td>
+        <td>{{ stock.last_price }}</td>
+        <td>{{ stock.updated_at }}</td>
+    </tr>
+    {% empty %}
+    <tr><td colspan="4">No stocks available.</td></tr>
+    {% endfor %}
+</table>
+
+
+
+</body>
+</html>
