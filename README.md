@@ -1,4 +1,4 @@
-# 📈 Stocker
+# 📈 Live Stocks Tracking Dashboard
 
 **Stocker** is a Django-powered live stock price dashboard that uses Chart.js for visualization, Celery and Redis for background tasks, and yFinance for fetching real-time stock data.
 
