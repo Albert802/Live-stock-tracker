@@ -62,51 +62,12 @@ python manage.py runserver
 
 /stocks/ – Main dashboard view
 
-🛠️ To Do
- Add authentication
-
- Deploy to PythonAnywhere or Render
-
- Add filtering or search
-
- Optimize API data size
 
 📄 License
 MIT License. Feel free to fork and improve the project.
 
 👨‍💻 Author
 Albert Hlelesi – @Albert802
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
